@@ -21,7 +21,7 @@ workspace "gfx_samples"
     filter "configurations:release"
         runtime "Release"
         optimize "On"
-		symbols "On"
+        symbols "On"
         defines { "NDEBUG" }
 
     filter "system:windows"
@@ -36,6 +36,7 @@ workspace "gfx_samples"
 
     group "external"
         include "external/sdl2.lua"
+        include "external/gfx/gfx.lua"
     group ""
 
 project "test"
@@ -58,48 +59,9 @@ project "test"
     sysincludedirs {
         "src/**",
         "external/SDL-mirror/include",
+        "external/gfx/src/**",
     }
 
     files {
-        "test/main.cpp",
+        "src/main.cpp",
     }
-
-project "RenderBackend"
-    kind "StaticLib"
-    language "C++"
-    targetdir "lib"
-
-    files {
-        "src/**.cpp",
-        "src/**.h",
-    }
-
-    filter "configurations:release"
-        flags { "LinkTimeOptimization" }
-
-    filter "system:windows"
-        characterset "MBCS" -- oops
-        postbuildcommands { '{COPY} "%{wks.location}SDL2/bin/%{cfg.platform}/%{cfg.buildcfg}/SDL2.dll" "%{cfg.buildtarget.directory}SDL2.dll*"' }
-
-        libdirs { "external/winlibs/%{cfg.platform}" }
-        links { 
-            "d3d11",
-            "d3dcompiler",
-            "DXGI",
-            "dxguid",
-        }
-
-    filter "system:macosx"
-        buildoptions { "-x objective-c++"}
-        links { 
-            "Metal.framework",
-            "QuartzCore.framework",
-            "Cocoa.framework",
-        }
-        files { "src/**.mm" }
-        removefiles { "src/**/dx11/**"}
-
-    -- vpaths { 
-    --     -- move all src files up one 
-    --     ["*"] = "src",
-    -- }
