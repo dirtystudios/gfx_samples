@@ -1,0 +1,36 @@
+dependencies: \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/SDL_render.c \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/../SDL_internal.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/../dynapi/SDL_dynapi.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/../dynapi/SDL_dynapi_overrides.h \
+  ../../external/SDL-mirror/include/SDL_config.h \
+  ../../external/SDL-mirror/include/SDL_platform.h \
+  ../../external/SDL-mirror/include/begin_code.h \
+  ../../external/SDL-mirror/include/close_code.h \
+  ../../external/SDL-mirror/include/SDL_config_macosx.h \
+  ../../external/SDL-mirror/include/SDL_assert.h \
+  ../../external/SDL-mirror/include/SDL_hints.h \
+  ../../external/SDL-mirror/include/SDL_stdinc.h \
+  ../../external/SDL-mirror/include/SDL_log.h \
+  ../../external/SDL-mirror/include/SDL_render.h \
+  ../../external/SDL-mirror/include/SDL_rect.h \
+  ../../external/SDL-mirror/include/SDL_error.h \
+  ../../external/SDL-mirror/include/SDL_pixels.h \
+  ../../external/SDL-mirror/include/SDL_endian.h \
+  ../../external/SDL-mirror/include/SDL_rwops.h \
+  ../../external/SDL-mirror/include/SDL_video.h \
+  ../../external/SDL-mirror/include/SDL_surface.h \
+  ../../external/SDL-mirror/include/SDL_blendmode.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/SDL_sysrender.h \
+  ../../external/SDL-mirror/include/SDL_events.h \
+  ../../external/SDL-mirror/include/SDL_keyboard.h \
+  ../../external/SDL-mirror/include/SDL_keycode.h \
+  ../../external/SDL-mirror/include/SDL_scancode.h \
+  ../../external/SDL-mirror/include/SDL_mouse.h \
+  ../../external/SDL-mirror/include/SDL_joystick.h \
+  ../../external/SDL-mirror/include/SDL_gamecontroller.h \
+  ../../external/SDL-mirror/include/SDL_quit.h \
+  ../../external/SDL-mirror/include/SDL_gesture.h \
+  ../../external/SDL-mirror/include/SDL_touch.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/SDL_yuv_sw_c.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/render/software/SDL_render_sw_c.h

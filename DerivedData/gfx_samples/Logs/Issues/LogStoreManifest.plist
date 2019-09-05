@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>62AB0074-AEF8-4CB6-A79B-A4BBB4EAF54E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.dynamic</string>
+			<key>fileName</key>
+			<string>62AB0074-AEF8-4CB6-A79B-A4BBB4EAF54E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>SDL2-fgualztdjdgnbncgkpsxdkpbsvxp</string>
+			<key>timeStartedRecording</key>
+			<real>588807688.86991704</real>
+			<key>timeStoppedRecording</key>
+			<real>588807688.90066302</real>
+			<key>title</key>
+			<string>Build target SDL2</string>
+			<key>uniqueIdentifier</key>
+			<string>62AB0074-AEF8-4CB6-A79B-A4BBB4EAF54E</string>
+		</dict>
+		<key>E9EF7BE0-CEC0-4863-A45A-38C793D77F36</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>E9EF7BE0-CEC0-4863-A45A-38C793D77F36.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>test-avukyaogkxrpsxgvnsqleazdwapn</string>
+			<key>timeStartedRecording</key>
+			<real>589487731.81519604</real>
+			<key>timeStoppedRecording</key>
+			<real>589487734.23949897</real>
+			<key>title</key>
+			<string>Build target test</string>
+			<key>uniqueIdentifier</key>
+			<string>E9EF7BE0-CEC0-4863-A45A-38C793D77F36</string>
+		</dict>
+		<key>EB89BB67-D68C-4180-BF2A-8907B63ED647</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>EB89BB67-D68C-4180-BF2A-8907B63ED647.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>RenderBackend-eparcwbjmdfnfhbqtdjzqhagfztl</string>
+			<key>timeStartedRecording</key>
+			<real>589487425.52841699</real>
+			<key>timeStoppedRecording</key>
+			<real>589487427.83642602</real>
+			<key>title</key>
+			<string>Build target RenderBackend</string>
+			<key>uniqueIdentifier</key>
+			<string>EB89BB67-D68C-4180-BF2A-8907B63ED647</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

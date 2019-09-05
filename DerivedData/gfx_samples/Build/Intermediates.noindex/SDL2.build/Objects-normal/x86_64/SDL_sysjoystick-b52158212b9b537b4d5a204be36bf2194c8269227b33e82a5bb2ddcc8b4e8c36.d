@@ -1,0 +1,33 @@
+dependencies: \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/SDL_sysjoystick.c \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/../../SDL_internal.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/../../dynapi/SDL_dynapi.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/../../dynapi/SDL_dynapi_overrides.h \
+  ../../external/SDL-mirror/include/SDL_config.h \
+  ../../external/SDL-mirror/include/SDL_platform.h \
+  ../../external/SDL-mirror/include/begin_code.h \
+  ../../external/SDL-mirror/include/close_code.h \
+  ../../external/SDL-mirror/include/SDL_config_macosx.h \
+  ../../external/SDL-mirror/include/SDL_joystick.h \
+  ../../external/SDL-mirror/include/SDL_stdinc.h \
+  ../../external/SDL-mirror/include/SDL_error.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/../SDL_sysjoystick.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/../SDL_joystick_c.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/SDL_sysjoystick_c.h \
+  ../../external/SDL-mirror/include/SDL_events.h \
+  ../../external/SDL-mirror/include/SDL_video.h \
+  ../../external/SDL-mirror/include/SDL_pixels.h \
+  ../../external/SDL-mirror/include/SDL_endian.h \
+  ../../external/SDL-mirror/include/SDL_rect.h \
+  ../../external/SDL-mirror/include/SDL_rwops.h \
+  ../../external/SDL-mirror/include/SDL_surface.h \
+  ../../external/SDL-mirror/include/SDL_blendmode.h \
+  ../../external/SDL-mirror/include/SDL_keyboard.h \
+  ../../external/SDL-mirror/include/SDL_keycode.h \
+  ../../external/SDL-mirror/include/SDL_scancode.h \
+  ../../external/SDL-mirror/include/SDL_mouse.h \
+  ../../external/SDL-mirror/include/SDL_gamecontroller.h \
+  ../../external/SDL-mirror/include/SDL_quit.h \
+  ../../external/SDL-mirror/include/SDL_gesture.h \
+  ../../external/SDL-mirror/include/SDL_touch.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/joystick/darwin/../../haptic/darwin/SDL_syshaptic_c.h

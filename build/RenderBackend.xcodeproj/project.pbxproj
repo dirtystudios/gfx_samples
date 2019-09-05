@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0088268074709E3296BE4CC0 /* ResourceManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE51F72884DFEE9AF2E21568 /* ResourceManager.cpp */; };
+		32582775A6409F27C88E4DB5 /* MetalSwapchain.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2EEE3C7DF57C33EF637E5ABD /* MetalSwapchain.mm */; };
+		6836D17B23187E2A00399255 /* ComputePassCommandBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6836D17A23187E2A00399255 /* ComputePassCommandBuffer.cpp */; };
+		6836D17E23187EC600399255 /* MetalComputePassCommandBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6836D17D23187EC600399255 /* MetalComputePassCommandBuffer.mm */; };
+		6A83F02FAE97C161A269466F /* MetalView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04997B9775BC1C892B82C9D7 /* MetalView.mm */; };
+		75162FCB280C397D792E960B /* MetalCommandBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF067330DE4FE5B5C964B3 /* MetalCommandBuffer.mm */; };
+		8C0F07596B2C218B47357D99 /* MetalDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = E87AB1217B087B13E3E11F61 /* MetalDevice.mm */; };
+		9130093853F069AAB1254778 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B91C4E06FD8CD12F3C5FB20 /* QuartzCore.framework */; };
+		A902104C46E310FE1E61568C /* SemanticNameCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4716443409D6A4A6670B8274 /* SemanticNameCache.cpp */; };
+		AD5DFB1EF171CC50E543515E /* TexConvert.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA10A1E64B3342D800F9F026 /* TexConvert.cpp */; };
+		B39AF799ED65AE4BA2C0FDD9 /* MetalRenderPassCommandBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A510026169C558D31E3400A1 /* MetalRenderPassCommandBuffer.mm */; };
+		B70C1149D1D87FFBD5A91789 /* MetalBackend.mm in Sources */ = {isa = PBXBuildFile; fileRef = A088E9110DB0F7830F43E751 /* MetalBackend.mm */; };
+		C39B3D3E56290730BF01AB7E /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EF28886D25E4A381101EEC6 /* Metal.framework */; };
+		E456D206974CDBB8E86F3846 /* SimpleShaderLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DCF054E31CE4EC0B6B9638E /* SimpleShaderLibrary.cpp */; };
+		E8B06A56F53B1CC8701FE896 /* RenderDeviceApi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1238E1EA040A8507C4A045E /* RenderDeviceApi.cpp */; };
+		EC9A7D119F9086C3F0B2E351 /* MetalShaderLibrary.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5EBDA59A9EB23CB2ED63899 /* MetalShaderLibrary.mm */; };
+		F8E8DBA28B76A594F44F49E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		009C3A91CEBF8E4355CDE0D1 /* ParamType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParamType.h; path = ../external/gfx/src/interface/enums/ParamType.h; sourceTree = "<group>"; };
+		034A4A1B2B8502CD1320905B /* libRenderBackendd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRenderBackendd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04997B9775BC1C892B82C9D7 /* MetalView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalView.mm; path = ../external/gfx/src/impl/metal/MetalView.mm; sourceTree = "<group>"; };
+		0EF28886D25E4A381101EEC6 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		15D0FCF282F90B64848BFB32 /* ResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ResourceManager.h; path = ../external/gfx/src/common/ResourceManager.h; sourceTree = "<group>"; };
+		1B984DC35FAC1EF5537DA403 /* WindingOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WindingOrder.h; path = ../external/gfx/src/interface/enums/WindingOrder.h; sourceTree = "<group>"; };
+		1C0FA7C64BA176B826AEB606 /* DGAssert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DGAssert.h; path = ../external/gfx/src/common/DGAssert.h; sourceTree = "<group>"; };
+		1F8F339FEDB2875174C0D9DF /* BlendMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlendMode.h; path = ../external/gfx/src/interface/enums/BlendMode.h; sourceTree = "<group>"; };
+		2D46098DFB695D3F8277AFCD /* BlendFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlendFunc.h; path = ../external/gfx/src/interface/enums/BlendFunc.h; sourceTree = "<group>"; };
+		2EEE3C7DF57C33EF637E5ABD /* MetalSwapchain.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalSwapchain.mm; path = ../external/gfx/src/impl/metal/MetalSwapchain.mm; sourceTree = "<group>"; };
+		2F85C261C7D2A813F619A8A1 /* PrimitiveType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrimitiveType.h; path = ../external/gfx/src/interface/enums/PrimitiveType.h; sourceTree = "<group>"; };
+		322D5C20114A7652ED53D260 /* PipelineStateDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PipelineStateDesc.h; path = ../external/gfx/src/interface/PipelineStateDesc.h; sourceTree = "<group>"; };
+		33CFB3C145F9907379EA7A01 /* StoreAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StoreAction.h; path = ../external/gfx/src/interface/enums/StoreAction.h; sourceTree = "<group>"; };
+		3556F6EC5023659E53F3FD2C /* ShaderFunctionDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderFunctionDesc.h; path = ../external/gfx/src/interface/ShaderFunctionDesc.h; sourceTree = "<group>"; };
+		369876006891C0B2E270FC40 /* BlendState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BlendState.h; path = ../external/gfx/src/interface/BlendState.h; sourceTree = "<group>"; };
+		3CDF067330DE4FE5B5C964B3 /* MetalCommandBuffer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalCommandBuffer.mm; path = ../external/gfx/src/impl/metal/MetalCommandBuffer.mm; sourceTree = "<group>"; };
+		3DCF054E31CE4EC0B6B9638E /* SimpleShaderLibrary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleShaderLibrary.cpp; path = ../external/gfx/src/common/SimpleShaderLibrary.cpp; sourceTree = "<group>"; };
+		3E9738DF5963A7915D343F1F /* RenderDeviceApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RenderDeviceApi.h; path = ../external/gfx/src/interface/enums/RenderDeviceApi.h; sourceTree = "<group>"; };
+		4716443409D6A4A6670B8274 /* SemanticNameCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SemanticNameCache.cpp; path = ../external/gfx/src/common/SemanticNameCache.cpp; sourceTree = "<group>"; };
+		47550A599EBA7D4B50C89899 /* MetalSwapchain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalSwapchain.h; path = ../external/gfx/src/impl/metal/MetalSwapchain.h; sourceTree = "<group>"; };
+		56AD95D3506F52458A6E5413 /* MetalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalView.h; path = ../external/gfx/src/impl/metal/MetalView.h; sourceTree = "<group>"; };
+		5866376D26898B1FAD97DDAD /* DepthFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DepthFunc.h; path = ../external/gfx/src/interface/enums/DepthFunc.h; sourceTree = "<group>"; };
+		5A60F3463EA7FB78C2952986 /* CommandBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CommandBuffer.h; path = ../external/gfx/src/interface/CommandBuffer.h; sourceTree = "<group>"; };
+		6095EC882EB9403AB5C792C8 /* VertexStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VertexStream.h; path = ../external/gfx/src/interface/VertexStream.h; sourceTree = "<group>"; };
+		60FCE2044543EA36C9311844 /* RenderBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RenderBackend.h; path = ../external/gfx/src/interface/RenderBackend.h; sourceTree = "<group>"; };
+		638DBD5B6330A08D9D85539B /* ShaderStageFlags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderStageFlags.h; path = ../external/gfx/src/interface/enums/ShaderStageFlags.h; sourceTree = "<group>"; };
+		6836D17923187E2A00399255 /* ComputePassCommandBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ComputePassCommandBuffer.h; path = ../external/gfx/src/interface/ComputePassCommandBuffer.h; sourceTree = "<group>"; };
+		6836D17A23187E2A00399255 /* ComputePassCommandBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ComputePassCommandBuffer.cpp; path = ../external/gfx/src/interface/ComputePassCommandBuffer.cpp; sourceTree = "<group>"; };
+		6836D17C23187EC600399255 /* MetalComputePassCommandBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalComputePassCommandBuffer.h; path = ../external/gfx/src/impl/metal/MetalComputePassCommandBuffer.h; sourceTree = "<group>"; };
+		6836D17D23187EC600399255 /* MetalComputePassCommandBuffer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MetalComputePassCommandBuffer.mm; path = ../external/gfx/src/impl/metal/MetalComputePassCommandBuffer.mm; sourceTree = "<group>"; };
+		6E0220D43C257486C333C714 /* RenderDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RenderDevice.h; path = ../external/gfx/src/interface/RenderDevice.h; sourceTree = "<group>"; };
+		7314888A94E035BCD1955ECA /* Binding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Binding.h; path = ../external/gfx/src/interface/Binding.h; sourceTree = "<group>"; };
+		74EA05F7B8FDD729ACCF5C37 /* TextureUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TextureUsage.h; path = ../external/gfx/src/interface/enums/TextureUsage.h; sourceTree = "<group>"; };
+		757C4003B9901135AD619643 /* BufferAccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BufferAccess.h; path = ../external/gfx/src/interface/enums/BufferAccess.h; sourceTree = "<group>"; };
+		75F7F4C917E190BB0F08A309 /* MetalEnumAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalEnumAdapter.h; path = ../external/gfx/src/impl/metal/MetalEnumAdapter.h; sourceTree = "<group>"; };
+		76A55033CE0AC3258018DE73 /* MetalResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalResources.h; path = ../external/gfx/src/impl/metal/MetalResources.h; sourceTree = "<group>"; };
+		7723331D5B6A3B4FDF57695D /* ShaderType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderType.h; path = ../external/gfx/src/interface/enums/ShaderType.h; sourceTree = "<group>"; };
+		776EBDFD0D97CFEFCEFE2C3D /* MetalRenderPassCommandBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalRenderPassCommandBuffer.h; path = ../external/gfx/src/impl/metal/MetalRenderPassCommandBuffer.h; sourceTree = "<group>"; };
+		787374830DEA33B57C868AC3 /* FillMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FillMode.h; path = ../external/gfx/src/interface/enums/FillMode.h; sourceTree = "<group>"; };
+		7B06B0F47BB9ADE6EF9B7F34 /* Hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Hash.h; path = ../external/gfx/src/common/Hash.h; sourceTree = "<group>"; };
+		7C1018CE60572100E4444F0E /* ResourceTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ResourceTypes.h; path = ../external/gfx/src/interface/ResourceTypes.h; sourceTree = "<group>"; };
+		7F841550B0680D42C3804390 /* TexConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TexConvert.h; path = ../external/gfx/src/common/TexConvert.h; sourceTree = "<group>"; };
+		8810E9E0BA0A349233E97020 /* DepthState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DepthState.h; path = ../external/gfx/src/interface/DepthState.h; sourceTree = "<group>"; };
+		887F04951DF5C3C78C921AD5 /* CullMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CullMode.h; path = ../external/gfx/src/interface/enums/CullMode.h; sourceTree = "<group>"; };
+		8B91C4E06FD8CD12F3C5FB20 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		98474A91776464C3536DC0D1 /* ShaderDataType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderDataType.h; path = ../external/gfx/src/interface/enums/ShaderDataType.h; sourceTree = "<group>"; };
+		9A4D50898E4C99FB1337AEC9 /* CreateTextureParams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CreateTextureParams.h; path = ../external/gfx/src/impl/metal/CreateTextureParams.h; sourceTree = "<group>"; };
+		A088E9110DB0F7830F43E751 /* MetalBackend.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalBackend.mm; path = ../external/gfx/src/impl/metal/MetalBackend.mm; sourceTree = "<group>"; };
+		A510026169C558D31E3400A1 /* MetalRenderPassCommandBuffer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalRenderPassCommandBuffer.mm; path = ../external/gfx/src/impl/metal/MetalRenderPassCommandBuffer.mm; sourceTree = "<group>"; };
+		A5458484B76F6136EB604AC4 /* AttachmentDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AttachmentDesc.h; path = ../external/gfx/src/interface/AttachmentDesc.h; sourceTree = "<group>"; };
+		ADBA0A96DFB35548599290D6 /* ShaderData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderData.h; path = ../external/gfx/src/interface/ShaderData.h; sourceTree = "<group>"; };
+		B065C5FCDFF794EEBB04D43C /* Resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resource.h; path = ../external/gfx/src/common/Resource.h; sourceTree = "<group>"; };
+		B51B21E6E7146C9860F3A826 /* BufferDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BufferDesc.h; path = ../external/gfx/src/interface/BufferDesc.h; sourceTree = "<group>"; };
+		B544AF184ABB6E4AB957C558 /* RasterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RasterState.h; path = ../external/gfx/src/interface/RasterState.h; sourceTree = "<group>"; };
+		B5EBDA59A9EB23CB2ED63899 /* MetalShaderLibrary.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalShaderLibrary.mm; path = ../external/gfx/src/impl/metal/MetalShaderLibrary.mm; sourceTree = "<group>"; };
+		BC0F4C81CE392933022A12C1 /* PixelFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PixelFormat.h; path = ../external/gfx/src/interface/enums/PixelFormat.h; sourceTree = "<group>"; };
+		BCC91CE3BC6C0015F6C0B323 /* BufferUsageFlags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BufferUsageFlags.h; path = ../external/gfx/src/interface/enums/BufferUsageFlags.h; sourceTree = "<group>"; };
+		BCFD7F14CF275BC603184554 /* ShaderDataDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderDataDesc.h; path = ../external/gfx/src/interface/ShaderDataDesc.h; sourceTree = "<group>"; };
+		BE51F72884DFEE9AF2E21568 /* ResourceManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ResourceManager.cpp; path = ../external/gfx/src/common/ResourceManager.cpp; sourceTree = "<group>"; };
+		C1238E1EA040A8507C4A045E /* RenderDeviceApi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RenderDeviceApi.cpp; path = ../external/gfx/src/interface/RenderDeviceApi.cpp; sourceTree = "<group>"; };
+		C6724D70F86B9822724AD3B0 /* LoadAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoadAction.h; path = ../external/gfx/src/interface/LoadAction.h; sourceTree = "<group>"; };
+		CA7766B017DA5CE28DF95CF0 /* Swapchain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Swapchain.h; path = ../external/gfx/src/interface/Swapchain.h; sourceTree = "<group>"; };
+		CDB099DE63275910D1C3B01E /* Framebuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Framebuffer.h; path = ../external/gfx/src/interface/Framebuffer.h; sourceTree = "<group>"; };
+		D8564B589B16ABCAF84B8998 /* SimpleShaderLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleShaderLibrary.h; path = ../external/gfx/src/common/SimpleShaderLibrary.h; sourceTree = "<group>"; };
+		D8F19903B80EB33594180F43 /* DepthWriteMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DepthWriteMask.h; path = ../external/gfx/src/interface/enums/DepthWriteMask.h; sourceTree = "<group>"; };
+		DA10A1E64B3342D800F9F026 /* TexConvert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TexConvert.cpp; path = ../external/gfx/src/common/TexConvert.cpp; sourceTree = "<group>"; };
+		DD8E46FD21DCEC6F6404253D /* MetalDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalDevice.h; path = ../external/gfx/src/impl/metal/MetalDevice.h; sourceTree = "<group>"; };
+		E16F8BD47B9381062BB96214 /* RenderPassCommandBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RenderPassCommandBuffer.h; path = ../external/gfx/src/interface/RenderPassCommandBuffer.h; sourceTree = "<group>"; };
+		E38F02EA7BDBE89CAA22E92A /* VertexLayoutDesc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VertexLayoutDesc.h; path = ../external/gfx/src/interface/VertexLayoutDesc.h; sourceTree = "<group>"; };
+		E47B95F558D5DAE7D6B96435 /* MetalShaderLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalShaderLibrary.h; path = ../external/gfx/src/impl/metal/MetalShaderLibrary.h; sourceTree = "<group>"; };
+		E4B127AD773EF19FE01795ED /* MetalBackend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalBackend.h; path = ../external/gfx/src/impl/metal/MetalBackend.h; sourceTree = "<group>"; };
+		E87AB1217B087B13E3E11F61 /* MetalDevice.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objc; name = MetalDevice.mm; path = ../external/gfx/src/impl/metal/MetalDevice.mm; sourceTree = "<group>"; };
+		E9B8DD9D5DA1554F7FEF03DD /* BufferAccessFlags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BufferAccessFlags.h; path = ../external/gfx/src/interface/enums/BufferAccessFlags.h; sourceTree = "<group>"; };
+		EA49997AFC73762C30645FBA /* RenderPassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RenderPassInfo.h; path = ../external/gfx/src/interface/RenderPassInfo.h; sourceTree = "<group>"; };
+		EC07A52F6061EA21DE45736F /* MetalCommandBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetalCommandBuffer.h; path = ../external/gfx/src/impl/metal/MetalCommandBuffer.h; sourceTree = "<group>"; };
+		EF830323D3CA0B5557B73963 /* BufferType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BufferType.h; path = ../external/gfx/src/interface/enums/BufferType.h; sourceTree = "<group>"; };
+		F05AA9CCD4A1B1FE588EE00C /* ShaderLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ShaderLibrary.h; path = ../external/gfx/src/interface/ShaderLibrary.h; sourceTree = "<group>"; };
+		F2DA5ABEB9685230276A78FE /* SemanticNameCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SemanticNameCache.h; path = ../external/gfx/src/common/SemanticNameCache.h; sourceTree = "<group>"; };
+		F60974FDD5268F2FB12FEB3D /* BufferLifetime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BufferLifetime.h; path = ../external/gfx/src/interface/enums/BufferLifetime.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BED6A0B921399BDF91A904B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C39B3D3E56290730BF01AB7E /* Metal.framework in Frameworks */,
+				9130093853F069AAB1254778 /* QuartzCore.framework in Frameworks */,
+				F8E8DBA28B76A594F44F49E2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F6C3CF629D17C1BBDE720F /* metal */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D50898E4C99FB1337AEC9 /* CreateTextureParams.h */,
+				E4B127AD773EF19FE01795ED /* MetalBackend.h */,
+				A088E9110DB0F7830F43E751 /* MetalBackend.mm */,
+				EC07A52F6061EA21DE45736F /* MetalCommandBuffer.h */,
+				3CDF067330DE4FE5B5C964B3 /* MetalCommandBuffer.mm */,
+				DD8E46FD21DCEC6F6404253D /* MetalDevice.h */,
+				E87AB1217B087B13E3E11F61 /* MetalDevice.mm */,
+				75F7F4C917E190BB0F08A309 /* MetalEnumAdapter.h */,
+				776EBDFD0D97CFEFCEFE2C3D /* MetalRenderPassCommandBuffer.h */,
+				A510026169C558D31E3400A1 /* MetalRenderPassCommandBuffer.mm */,
+				76A55033CE0AC3258018DE73 /* MetalResources.h */,
+				E47B95F558D5DAE7D6B96435 /* MetalShaderLibrary.h */,
+				B5EBDA59A9EB23CB2ED63899 /* MetalShaderLibrary.mm */,
+				47550A599EBA7D4B50C89899 /* MetalSwapchain.h */,
+				2EEE3C7DF57C33EF637E5ABD /* MetalSwapchain.mm */,
+				56AD95D3506F52458A6E5413 /* MetalView.h */,
+				04997B9775BC1C892B82C9D7 /* MetalView.mm */,
+				6836D17C23187EC600399255 /* MetalComputePassCommandBuffer.h */,
+				6836D17D23187EC600399255 /* MetalComputePassCommandBuffer.mm */,
+			);
+			name = metal;
+			sourceTree = "<group>";
+		};
+		9660399A39ABC2CC547C8FDA /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1C0FA7C64BA176B826AEB606 /* DGAssert.h */,
+				7B06B0F47BB9ADE6EF9B7F34 /* Hash.h */,
+				B065C5FCDFF794EEBB04D43C /* Resource.h */,
+				BE51F72884DFEE9AF2E21568 /* ResourceManager.cpp */,
+				15D0FCF282F90B64848BFB32 /* ResourceManager.h */,
+				4716443409D6A4A6670B8274 /* SemanticNameCache.cpp */,
+				F2DA5ABEB9685230276A78FE /* SemanticNameCache.h */,
+				3DCF054E31CE4EC0B6B9638E /* SimpleShaderLibrary.cpp */,
+				D8564B589B16ABCAF84B8998 /* SimpleShaderLibrary.h */,
+				DA10A1E64B3342D800F9F026 /* TexConvert.cpp */,
+				7F841550B0680D42C3804390 /* TexConvert.h */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		A441450A472F6BBCD6554B4A /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				A5458484B76F6136EB604AC4 /* AttachmentDesc.h */,
+				7314888A94E035BCD1955ECA /* Binding.h */,
+				369876006891C0B2E270FC40 /* BlendState.h */,
+				B51B21E6E7146C9860F3A826 /* BufferDesc.h */,
+				5A60F3463EA7FB78C2952986 /* CommandBuffer.h */,
+				8810E9E0BA0A349233E97020 /* DepthState.h */,
+				CDB099DE63275910D1C3B01E /* Framebuffer.h */,
+				C6724D70F86B9822724AD3B0 /* LoadAction.h */,
+				322D5C20114A7652ED53D260 /* PipelineStateDesc.h */,
+				B544AF184ABB6E4AB957C558 /* RasterState.h */,
+				60FCE2044543EA36C9311844 /* RenderBackend.h */,
+				6E0220D43C257486C333C714 /* RenderDevice.h */,
+				C1238E1EA040A8507C4A045E /* RenderDeviceApi.cpp */,
+				E16F8BD47B9381062BB96214 /* RenderPassCommandBuffer.h */,
+				EA49997AFC73762C30645FBA /* RenderPassInfo.h */,
+				7C1018CE60572100E4444F0E /* ResourceTypes.h */,
+				ADBA0A96DFB35548599290D6 /* ShaderData.h */,
+				BCFD7F14CF275BC603184554 /* ShaderDataDesc.h */,
+				3556F6EC5023659E53F3FD2C /* ShaderFunctionDesc.h */,
+				F05AA9CCD4A1B1FE588EE00C /* ShaderLibrary.h */,
+				CA7766B017DA5CE28DF95CF0 /* Swapchain.h */,
+				E38F02EA7BDBE89CAA22E92A /* VertexLayoutDesc.h */,
+				6095EC882EB9403AB5C792C8 /* VertexStream.h */,
+				CFCEA058E6E13B8AD6FD3698 /* enums */,
+				6836D17923187E2A00399255 /* ComputePassCommandBuffer.h */,
+				6836D17A23187E2A00399255 /* ComputePassCommandBuffer.cpp */,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		A6C936B49B3FADE6EA134CF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034A4A1B2B8502CD1320905B /* libRenderBackendd.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADED8AC8E6A8513A763F8908 /* RenderBackend */ = {
+			isa = PBXGroup;
+			children = (
+				9660399A39ABC2CC547C8FDA /* common */,
+				FE73182CAAD5D85E695E4E6C /* impl */,
+				A441450A472F6BBCD6554B4A /* interface */,
+				BBF76781A7E87333FA200DC1 /* Frameworks */,
+				A6C936B49B3FADE6EA134CF4 /* Products */,
+			);
+			name = RenderBackend;
+			sourceTree = "<group>";
+		};
+		BBF76781A7E87333FA200DC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EF28886D25E4A381101EEC6 /* Metal.framework */,
+				8B91C4E06FD8CD12F3C5FB20 /* QuartzCore.framework */,
+				8D6BC6AA50D7885C8F7B2CEA /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFCEA058E6E13B8AD6FD3698 /* enums */ = {
+			isa = PBXGroup;
+			children = (
+				2D46098DFB695D3F8277AFCD /* BlendFunc.h */,
+				1F8F339FEDB2875174C0D9DF /* BlendMode.h */,
+				757C4003B9901135AD619643 /* BufferAccess.h */,
+				E9B8DD9D5DA1554F7FEF03DD /* BufferAccessFlags.h */,
+				F60974FDD5268F2FB12FEB3D /* BufferLifetime.h */,
+				EF830323D3CA0B5557B73963 /* BufferType.h */,
+				BCC91CE3BC6C0015F6C0B323 /* BufferUsageFlags.h */,
+				887F04951DF5C3C78C921AD5 /* CullMode.h */,
+				5866376D26898B1FAD97DDAD /* DepthFunc.h */,
+				D8F19903B80EB33594180F43 /* DepthWriteMask.h */,
+				787374830DEA33B57C868AC3 /* FillMode.h */,
+				009C3A91CEBF8E4355CDE0D1 /* ParamType.h */,
+				BC0F4C81CE392933022A12C1 /* PixelFormat.h */,
+				2F85C261C7D2A813F619A8A1 /* PrimitiveType.h */,
+				3E9738DF5963A7915D343F1F /* RenderDeviceApi.h */,
+				98474A91776464C3536DC0D1 /* ShaderDataType.h */,
+				638DBD5B6330A08D9D85539B /* ShaderStageFlags.h */,
+				7723331D5B6A3B4FDF57695D /* ShaderType.h */,
+				33CFB3C145F9907379EA7A01 /* StoreAction.h */,
+				74EA05F7B8FDD729ACCF5C37 /* TextureUsage.h */,
+				1B984DC35FAC1EF5537DA403 /* WindingOrder.h */,
+			);
+			name = enums;
+			sourceTree = "<group>";
+		};
+		FE73182CAAD5D85E695E4E6C /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				33F6C3CF629D17C1BBDE720F /* metal */,
+			);
+			name = impl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7693CAA1CD213513A59A48E1 /* RenderBackend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A28B26A804EE21CE755D8AA /* Build configuration list for PBXNativeTarget "RenderBackend" */;
+			buildPhases = (
+				DBD4EAAB01FB1A5D690210EB /* Resources */,
+				458204026BA833B4D2AF2A42 /* Sources */,
+				6BED6A0B921399BDF91A904B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RenderBackend;
+			productName = RenderBackend;
+			productReference = 034A4A1B2B8502CD1320905B /* libRenderBackendd.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "RenderBackend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADED8AC8E6A8513A763F8908 /* RenderBackend */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7693CAA1CD213513A59A48E1 /* RenderBackend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD4EAAB01FB1A5D690210EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		458204026BA833B4D2AF2A42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0088268074709E3296BE4CC0 /* ResourceManager.cpp in Sources */,
+				A902104C46E310FE1E61568C /* SemanticNameCache.cpp in Sources */,
+				6836D17E23187EC600399255 /* MetalComputePassCommandBuffer.mm in Sources */,
+				E456D206974CDBB8E86F3846 /* SimpleShaderLibrary.cpp in Sources */,
+				6836D17B23187E2A00399255 /* ComputePassCommandBuffer.cpp in Sources */,
+				AD5DFB1EF171CC50E543515E /* TexConvert.cpp in Sources */,
+				B70C1149D1D87FFBD5A91789 /* MetalBackend.mm in Sources */,
+				75162FCB280C397D792E960B /* MetalCommandBuffer.mm in Sources */,
+				8C0F07596B2C218B47357D99 /* MetalDevice.mm in Sources */,
+				B39AF799ED65AE4BA2C0FDD9 /* MetalRenderPassCommandBuffer.mm in Sources */,
+				EC9A7D119F9086C3F0B2E351 /* MetalShaderLibrary.mm in Sources */,
+				32582775A6409F27C88E4DB5 /* MetalSwapchain.mm in Sources */,
+				6A83F02FAE97C161A269466F /* MetalView.mm in Sources */,
+				E8B06A56F53B1CC8701FE896 /* RenderDeviceApi.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		027E907119912BA309AD26B1 /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/x64/release/RenderBackend;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				SYMROOT = ../external/gfx/lib;
+			};
+			name = release;
+		};
+		2B2E7E505D27C902D7070490 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CONFIGURATION_BUILD_DIR = ../external/gfx/lib;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = RenderBackendd;
+			};
+			name = debug;
+		};
+		C9B5BC776CA3E329FBC9C2B7 /* debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OBJROOT = obj/x64/debug/RenderBackend;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-x",
+					"objective-c++",
+				);
+				SYMROOT = ../external/gfx/lib;
+			};
+			name = debug;
+		};
+		F78A6D4A8D012C7CFB9D838A /* release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CONFIGURATION_BUILD_DIR = ../external/gfx/lib;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = RenderBackend;
+			};
+			name = release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "RenderBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B5BC776CA3E329FBC9C2B7 /* debug */,
+				C9B5BC776CA3E329FBC9C2B7 /* debug */,
+				027E907119912BA309AD26B1 /* release */,
+				027E907119912BA309AD26B1 /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+		5A28B26A804EE21CE755D8AA /* Build configuration list for PBXNativeTarget "RenderBackend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2E7E505D27C902D7070490 /* debug */,
+				2B2E7E505D27C902D7070490 /* debug */,
+				F78A6D4A8D012C7CFB9D838A /* release */,
+				F78A6D4A8D012C7CFB9D838A /* release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

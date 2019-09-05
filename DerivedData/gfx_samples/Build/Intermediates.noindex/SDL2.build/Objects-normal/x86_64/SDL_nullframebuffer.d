@@ -1,0 +1,26 @@
+dependencies: \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/video/dummy/SDL_nullframebuffer.c \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/video/dummy/../../SDL_internal.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/video/dummy/../../dynapi/SDL_dynapi.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/video/dummy/../../dynapi/SDL_dynapi_overrides.h \
+  ../../external/SDL-mirror/include/SDL_config.h \
+  ../../external/SDL-mirror/include/SDL_platform.h \
+  ../../external/SDL-mirror/include/begin_code.h \
+  ../../external/SDL-mirror/include/close_code.h \
+  ../../external/SDL-mirror/include/SDL_config_macosx.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/video/dummy/../SDL_sysvideo.h \
+  ../../external/SDL-mirror/include/SDL_messagebox.h \
+  ../../external/SDL-mirror/include/SDL_stdinc.h \
+  ../../external/SDL-mirror/include/SDL_video.h \
+  ../../external/SDL-mirror/include/SDL_pixels.h \
+  ../../external/SDL-mirror/include/SDL_endian.h \
+  ../../external/SDL-mirror/include/SDL_rect.h \
+  ../../external/SDL-mirror/include/SDL_error.h \
+  ../../external/SDL-mirror/include/SDL_rwops.h \
+  ../../external/SDL-mirror/include/SDL_surface.h \
+  ../../external/SDL-mirror/include/SDL_blendmode.h \
+  ../../external/SDL-mirror/include/SDL_shape.h \
+  ../../external/SDL-mirror/include/SDL_thread.h \
+  ../../external/SDL-mirror/include/SDL_atomic.h \
+  ../../external/SDL-mirror/include/SDL_mutex.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/video/dummy/SDL_nullframebuffer_c.h

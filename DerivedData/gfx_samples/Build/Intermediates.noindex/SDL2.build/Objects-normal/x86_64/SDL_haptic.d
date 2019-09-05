@@ -1,0 +1,19 @@
+dependencies: \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/SDL_haptic.c \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/../SDL_internal.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/../dynapi/SDL_dynapi.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/../dynapi/SDL_dynapi_overrides.h \
+  ../../external/SDL-mirror/include/SDL_config.h \
+  ../../external/SDL-mirror/include/SDL_platform.h \
+  ../../external/SDL-mirror/include/begin_code.h \
+  ../../external/SDL-mirror/include/close_code.h \
+  ../../external/SDL-mirror/include/SDL_config_macosx.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/SDL_syshaptic.h \
+  ../../external/SDL-mirror/include/SDL_haptic.h \
+  ../../external/SDL-mirror/include/SDL_stdinc.h \
+  ../../external/SDL-mirror/include/SDL_error.h \
+  ../../external/SDL-mirror/include/SDL_joystick.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/SDL_haptic_c.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/../joystick/SDL_joystick_c.h \
+  /Volumes/src/github/gfx_samples/external/SDL-mirror/src/haptic/../joystick/../SDL_internal.h \
+  ../../external/SDL-mirror/include/SDL_assert.h
