@@ -1,0 +1,66 @@
+.DS_Store
+
+# Swap Files
+*.swp
+
+# Compile bin Dir
+/bin/*
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libs
+*.so
+
+# Compiled Static Libs
+*.a
+*.lai
+*.la
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.pch
+
+# Xcode Stuff
+*.xcodeproj
+*.build
+DerivedData/
+
+# Visual Studio Stuff
+.vs
+.vscode
+*.opensdf
+*.opendb
+*.db
+*.sdf
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.iobj
+*.ipdb
+ipch/
+*.enc
+*.stackdump
+*.vcxprojResolveAssemblyReference.cache
+
+# Visual Studio Profiler Files
+*.vspx
+*.psess
+
+# Random
+*.log
+
+# CMake Stuff
+CMakeFiles/
+/CMakeScripts/
+CMakeCache.txt
+/dg.build/
+/dg.xcodeproj/
+Makefile
+cmake_install.cmake
+build/
+lib/
